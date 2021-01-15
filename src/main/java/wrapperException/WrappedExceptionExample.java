@@ -23,7 +23,7 @@ public class WrappedExceptionExample {
                 System.out.println(bufferedReader.readLine());
             }
         } catch(IOException exc) {
-            throw new CustomRuntimeException("I/O error occured");
+            throw new CustomRuntimeException("I/O error occured!");
         }
 
     }
